@@ -12,13 +12,13 @@ apply plugin: 'java'
 
 repositories {
 
-    jcenter()
     mavenCentral()
 }
 
 dependencies {
 
     compile 'org.slf4j:slf4j-api:1.7.22'
+    runtime 'mysql:mysql-connector-java:5.1.43'
 
     testCompile 'junit:junit:4.12'
 }
